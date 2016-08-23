@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Amrita 
+MAINTAINER Amrita <amrita1994@gitlab.com>
 
 RUN apt-get update -q \
     && DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
